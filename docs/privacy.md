@@ -1,6 +1,6 @@
 # Politique de confidentialité — Golfy Maroc
 
-**Dernière mise à jour :** 17 mai 2026
+**Dernière mise à jour :** 23 mai 2026
 
 La présente politique de confidentialité explique comment l'application mobile **Golfy Maroc** (ci-après « Golfy » ou « l'Application ») collecte, utilise, partage et protège les données personnelles de ses utilisateurs.
 
@@ -12,13 +12,11 @@ En utilisant Golfy, vous acceptez les pratiques décrites dans la présente poli
 
 Le responsable du traitement des données est :
 
-> **[À COMPLÉTER — Nom commercial ou raison sociale]**
-> **[À COMPLÉTER — Forme juridique : auto-entrepreneur, SARL, etc.]**
-> **[À COMPLÉTER — Adresse postale complète]**
-> **[À COMPLÉTER — Numéro RC / ICE si applicable]**
-> Email contact : **support@golfy.ma** (ou ton email réel)
+**Mehdi Brahimi** — éditeur de l'application Golfy Maroc, basé à Marrakech, Royaume du Maroc.
 
-Pour toute question concernant tes données personnelles, tu peux contacter l'éditeur à l'adresse ci-dessus.
+Email de contact : **mehdientrepreneur@gmail.com**
+
+Pour toute question concernant tes données personnelles, tu peux contacter l'éditeur à l'adresse email ci-dessus.
 
 ---
 
@@ -36,18 +34,12 @@ Golfy collecte les catégories de données suivantes :
 ### 2.2 Données collectées automatiquement
 
 - **Position géographique** :
-  - À l'ouverture de l'app, pour afficher les parcours de golf proches et la distance jusqu'au club house
-  - Pendant une partie de golf, en arrière-plan, pour mesurer la distance parcourue, la durée de la partie et l'énergie dépensée
+  * À l'ouverture de l'app, pour afficher les parcours de golf proches et la distance jusqu'au club house
+  * Pendant une partie de golf active, **uniquement lorsque l'application est au premier plan**, pour mesurer la distance parcourue et la durée de la partie
+
+  Golfy demande uniquement l'autorisation de localisation « Lors de l'utilisation de l'app » (*When In Use*). **Aucune donnée de position n'est collectée lorsque l'application est en arrière-plan.**
 - **Données techniques** : modèle d'appareil, système d'exploitation, version de l'app, identifiants de session, adresse IP (transitoire), journaux d'erreurs en cas de crash
 - **Données d'usage** : nombre de parties créées, temps passé sur certains écrans, fonctionnalités utilisées (à des fins d'amélioration produit)
-
-### 2.3 Données provenant d'Apple HealthKit (avec ton autorisation explicite)
-
-Si tu autorises Golfy à accéder à Apple Santé :
-- **Lecture** : nombre de pas et calories actives durant ta partie de golf, pour enrichir le résumé de partie
-- **Écriture** : enregistrement de ta partie de golf comme entraînement (workout) dans Apple Santé
-
-Tu peux révoquer ces autorisations à tout moment via : *Réglages iPhone → Santé → Accès aux données et appareils → Golfy*.
 
 ---
 
@@ -55,15 +47,15 @@ Tu peux révoquer ces autorisations à tout moment via : *Réglages iPhone → S
 
 Tes données sont utilisées pour :
 
-| Finalité | Base légale |
-|---|---|
-| Te permettre de créer et utiliser un compte Golfy | Exécution du contrat |
-| Te proposer les fonctionnalités de l'app (scoring, parties partagées, classement amis) | Exécution du contrat |
-| T'envoyer des notifications relatives à tes parties (invitations, fin de partie, etc.) | Exécution du contrat |
-| Mesurer ta performance sportive et ton activité durant une partie (distance, durée, calories) | Consentement (autorisation Position et HealthKit) |
-| Détecter et corriger les bugs, améliorer la stabilité de l'app | Intérêt légitime |
-| Améliorer le produit grâce à l'analyse anonymisée d'usage | Intérêt légitime |
-| Te contacter pour des questions de support | Intérêt légitime |
+| Finalité                                                                                  | Base légale                                  |
+| ----------------------------------------------------------------------------------------- | --------------------------------------------- |
+| Te permettre de créer et utiliser un compte Golfy                                         | Exécution du contrat                          |
+| Te proposer les fonctionnalités de l'app (scoring, parties partagées, classement amis)    | Exécution du contrat                          |
+| T'envoyer des notifications relatives à tes parties (invitations, fin de partie, etc.)    | Exécution du contrat                          |
+| Mesurer la distance parcourue et la durée de ta partie de golf                            | Consentement (autorisation de localisation)   |
+| Détecter et corriger les bugs, améliorer la stabilité de l'app                            | Intérêt légitime                              |
+| Améliorer le produit grâce à l'analyse anonymisée d'usage                                 | Intérêt légitime                              |
+| Te contacter pour des questions de support                                                | Intérêt légitime                              |
 
 ---
 
@@ -71,12 +63,12 @@ Tes données sont utilisées pour :
 
 Golfy s'appuie sur les prestataires techniques suivants, qui peuvent traiter tes données en notre nom. Aucune donnée n'est revendue à des tiers à des fins publicitaires.
 
-| Prestataire | Rôle | Pays | Données traitées |
-|---|---|---|---|
-| **Supabase Inc.** | Hébergement base de données, authentification, stockage de fichiers, fonctions back-end | Singapour / États-Unis | Toutes les données de compte et de jeu |
-| **Sentry (Functional Software Inc.)** | Collecte de rapports de crash et de diagnostics techniques | Allemagne / États-Unis | Données techniques, journaux d'erreurs |
-| **Apple Inc.** | Distribution de l'app, notifications push (APNs), Apple Health | États-Unis | Identifiant de notification, données HealthKit (si autorisée) |
-| **Expo (Exponent Inc.)** | Mises à jour Over-The-Air, services push | États-Unis | Identifiant push, version d'app |
+| Prestataire                           | Rôle                                                                                    | Pays                   | Données traitées                       |
+| ------------------------------------- | --------------------------------------------------------------------------------------- | ---------------------- | --------------------------------------- |
+| **Supabase Inc.**                     | Hébergement base de données, authentification, stockage de fichiers, fonctions back-end | Singapour / États-Unis | Toutes les données de compte et de jeu  |
+| **Sentry (Functional Software Inc.)** | Collecte de rapports de crash et de diagnostics techniques                              | Allemagne / États-Unis | Données techniques, journaux d'erreurs  |
+| **Apple Inc.**                        | Distribution de l'app, notifications push (APNs)                                        | États-Unis             | Identifiant de notification             |
+| **Expo (Exponent Inc.)**              | Mises à jour Over-The-Air, services push                                                | États-Unis             | Identifiant push, version d'app         |
 
 Ces prestataires sont contractuellement tenus de respecter la confidentialité de tes données et d'appliquer des mesures de sécurité appropriées.
 
@@ -88,12 +80,11 @@ Certaines de tes données sont stockées ou traitées en dehors du Maroc et de l
 
 ## 5. Durée de conservation des données
 
-| Type de données | Durée |
-|---|---|
-| Compte actif et données de jeu | Tant que ton compte est actif |
-| Compte supprimé par toi | Suppression immédiate (voir Section 7) |
-| Journaux d'erreurs Sentry | 90 jours maximum |
-| Données HealthKit | Conservées dans Apple Santé, pas par Golfy |
+| Type de données                | Durée                                  |
+| ------------------------------ | --------------------------------------- |
+| Compte actif et données de jeu | Tant que ton compte est actif           |
+| Compte supprimé par toi        | Suppression immédiate (voir Section 7)  |
+| Journaux d'erreurs Sentry      | 90 jours maximum                        |
 
 ---
 
@@ -115,29 +106,32 @@ Aucun système n'est totalement infaillible. En cas de violation de données sus
 Conformément au RGPD (utilisateurs européens) et à la loi marocaine 09-08 (utilisateurs marocains), tu disposes des droits suivants :
 
 - **Droit d'accès** : obtenir une copie de tes données
+
 - **Droit de rectification** : corriger des données inexactes (tu peux modifier ton profil directement dans l'app)
+
 - **Droit à l'effacement** : supprimer ton compte et toutes tes données
 
-  → ✅ **Tu peux supprimer ton compte directement depuis l'application** :
-  *Profil → Compte → Supprimer mon compte*
+    → ✅ **Tu peux supprimer ton compte directement depuis l'application** : *Profil → Compte → Supprimer mon compte*
 
-  La suppression entraîne l'effacement définitif de :
-  - Ton profil et photo
-  - Toutes tes parties (solo et partagées) et tes scores
-  - Tes amis et invitations
-  - Tes paramètres et préférences
+    La suppression entraîne l'effacement définitif de :
 
-  Tes données HealthKit (pas, calories, workouts) restent dans Apple Santé et ne sont pas affectées.
+  * Ton profil et photo
+  * Toutes tes parties (solo et partagées) et tes scores
+  * Tes amis et invitations
+  * Tes paramètres et préférences
 
 - **Droit d'opposition** : t'opposer à certains traitements basés sur l'intérêt légitime
-- **Droit à la portabilité** : recevoir tes données dans un format structuré (sur demande à support@golfy.ma)
-- **Droit de retirer ton consentement** : retirer à tout moment ton consentement pour la Position ou Apple Health via les Réglages de ton iPhone
 
-Pour exercer tes droits (autres que la suppression de compte, qui se fait dans l'app), envoie un email à **support@golfy.ma** (à remplacer par ton vrai email) en justifiant ton identité. Une réponse te sera apportée dans un délai d'un mois.
+- **Droit à la portabilité** : recevoir tes données dans un format structuré (sur demande à mehdientrepreneur@gmail.com)
+
+- **Droit de retirer ton consentement** : retirer à tout moment ton consentement à la localisation via les Réglages de ton iPhone
+
+Pour exercer tes droits (autres que la suppression de compte, qui se fait dans l'app), envoie un email à **mehdientrepreneur@gmail.com** en justifiant ton identité. Une réponse te sera apportée dans un délai d'un mois.
 
 ### Droit de réclamation
 
 Tu peux introduire une réclamation auprès de l'autorité de contrôle compétente :
+
 - **Au Maroc** : Commission Nationale de contrôle de la Protection des Données à caractère Personnel (CNDP) — [www.cndp.ma](https://www.cndp.ma)
 - **Dans l'Union européenne** : autorité de protection des données de ton pays de résidence
 
@@ -165,10 +159,8 @@ Cette politique peut être modifiée à tout moment, notamment pour refléter de
 
 Pour toute question concernant cette politique ou tes données personnelles :
 
-📧 **mehdientrepreneur@gmail.com** *(à remplacer par ton vrai email de contact)*
-
-🏢 **[À COMPLÉTER — Adresse postale]**
+📧 **mehdientrepreneur@gmail.com**
 
 ---
 
-*Document généré le 17 mai 2026 — Version 1.0*
+*Document mis à jour le 23 mai 2026 — Version 1.1*
